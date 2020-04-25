@@ -23,5 +23,5 @@ Run `DMRIDSUpdate.sh` to download and update the list of DMR Ids.
 
 ## Running DMRStation
 
-Run `start.sh`. You might need to set up your DISPLAY environment variable first: `DISPLAY=:0 start.sh'
+Run `start.sh`. You might need to set up your DISPLAY environment variable first: `DISPLAY=:0 start.sh`
 
