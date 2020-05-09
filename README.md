@@ -89,7 +89,11 @@ NotShowIn=KDE;
 
 ## Configuration
 
-Edit `DMRStation.ini` to add your callsign, dmr id, repeater id and other values. You can also set your favourite tgs in the file `tgs.dat`.
+Edit `DMRStation.ini` to add your callsign, dmr id, repeater id and other values.
+
+## TGs
+You can also set your favourite tgs in the file `tgs.dat`.
+A name starting with * means that it is not a TG but a private contact, so you can make private calls!
 
 ## DMR ids database
 
