@@ -86,6 +86,13 @@ X-GNOME-Autostart-Phase=Initialization
 NotShowIn=KDE;
 ```
 
+## md380-emu
+
+For now there is no support for Ammbe server so using the emulator is the only option.
+
+You can get the emulator from source code from this repository:
+
+https://github.com/DVSwitch/md380tools/tree/master/emulator
 
 ## Configuration
 
