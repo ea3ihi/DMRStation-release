@@ -16,7 +16,7 @@ Here you have some installation instructions when using the **STM32MP157C-DK2**:
 ```bash
 echo "deb http://packages.openstlinux.st.com/1.2 thud main updates untested" >> /etc/apt/sources.list.d/packages.openstlinux.st.com.list
 apt-get update
-apt-get install -y libpulse-mainloop-glib0 jq
+apt-get install -y --allow-unauthenticated libpulse-mainloop-glib0 jq
 ln -s /lib/ld-linux-armhf.so.3 /lib/ld-linux.so.3
 
 mkdir /opt
