@@ -43,7 +43,7 @@ So here is my try at giving step by step instructions for the rpi:
 
 ```
 sudo apt-get update
-sudo apt-get install -y libpulse-mainloop-glib0 jq
+sudo apt-get install -y libpulse-mainloop-glib0 jq at-spi2-core
 sudo ln -s /lib/ld-linux-armhf.so.3 /lib/ld-linux.so.3
 
 sudo mkdir /opt
