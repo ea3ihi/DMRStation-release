@@ -92,6 +92,6 @@ then
 fi
 
 # Generate new file
-curl -s -N "https://www.radioid.net/api/dmr/user/?id=%" | jq -r '.results[] | [.id, .callsign, .fname] | @csv' | sed -e 's/"//g' | sed -e 's/,/ /g' > ${DMRIDFILE}
+curl -s -N "https://database.radioid.net/api/dmr/user/?id=%" | jq -r '.results[] | [.id, .callsign, .fname] | @csv' | sed -e 's/"//g' | sed -e 's/,/ /g' > ${DMRIDFILE}
 
 
