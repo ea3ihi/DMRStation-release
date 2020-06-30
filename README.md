@@ -27,7 +27,6 @@ mv DMRStation-release-master DMRStation
 cd DMRStation
 chmod +x *.sh
 chmod +x DMRstation
-
 ```
 
 Now edit the configuration file and make sure to have a copy of the md380-emu in the same folder and it has execute permission.
@@ -35,6 +34,13 @@ If all is ready just type `./start.sh` press enter and some magic will happen.
 
 You can add a shell script in the `/usr/local/weston-start-at-startup/` folder to run the application at startup.
 Suggestion: add a `sleep 8` to let all the services and audio devices be ready.
+
+To set the timezone:
+
+```bash
+apt-get install -y tzdata tzdata-europe tzcode
+timedatectl set-timezone Europe/Madrid
+```
 
 
 **Instructions for the Raspberry Pi**
